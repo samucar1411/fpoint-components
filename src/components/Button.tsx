@@ -80,7 +80,7 @@ const Button: FC<ButtonProps> = ({
     if ((variant === 'bare' || variant === 'ghost') && appearance === 'secondary') {
       return 'secondary';
     }
-  
+  1
     if (variant === 'bare' || variant === 'ghost') {
       return 'primary';
     }
