@@ -32,6 +32,17 @@ export const DefaultDisabled: Story = {
   },
 };
 
+export const DefaultLoading: Story = {
+  args: {
+    variant: 'default',
+    appearance: 'primary',
+    size: 'medium',
+    label: 'Button label',
+    disabled: true,
+    loading: true
+  },
+};
+
 export const DefaultLeadingIcon: Story = {
   args: {
     variant: 'default',
@@ -76,6 +87,17 @@ export const GhostDisabled: Story = {
   },
 };
 
+export const GhosttLoading: Story = {
+  args: {
+    variant: 'ghost',
+    appearance: 'primary',
+    size: 'medium',
+    label: 'Button label',
+    disabled: false,
+    loading: true
+  },
+};
+
 export const GhostLeadingIcon: Story = {
   args: {
     variant: 'ghost',
@@ -116,9 +138,21 @@ export const BareDisabled: Story = {
     appearance: 'primary',
     size: 'medium',
     label: 'Button label',
-    disabled: false
+    disabled: true
   },
 };
+
+export const BareLoading: Story = {
+  args: {
+    variant: 'bare',
+    appearance: 'primary',
+    size: 'medium',
+    label: 'Button label',
+    disabled: false,
+    loading: true
+  },
+};
+
 
 export const BareLeadingIcon: Story = {
   args: {

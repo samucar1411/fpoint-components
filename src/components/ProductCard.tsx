@@ -55,6 +55,7 @@ export const ProductCard: FC<Props> = ({ name, description, id, price, image}) =
             label='Ver Detalles'
             appearance='secondary'
             size='small'
+            fullWidth
         />
         </div>
     

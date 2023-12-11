@@ -12,6 +12,33 @@ export default {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      fontWeight: {
+        normal: '400',
+        medium: '450',
+        bold: '600'
+      },
+      letterSpacing: {
+        tighter: '-0.02em',
+        tight: '-0.0175em',
+        normal: '0em',
+        wide: '0.0175em',
+        wider: '0.02em'
+      },
+      dropShadow: {
+        sm: '0px 1px 2px 0px rgba(27, 36, 44, 0.12)',
+        md: [
+          '0px 2px 8px -1px rgba(27, 36, 44, 0.08)',
+          '0px 2px 2px -1px rgba(27, 36, 44, 0.04)',
+        ],
+        lg: [
+          '0px 8px 16px -2px rgba(27, 36, 44, 0.12)',
+          '0px 2px 2px -1px rgba(27, 35, 44, 0.04)',
+        ],
+        xl: [
+          '0px 16px 24px -6px rgba(27, 36, 44, 0.16)',
+          '0px 2px 2px -1px rgba(27, 36, 44, 0.04)'
+        ]
+      },
       colors: {
         content: '#4A545E',
         blue: {
@@ -144,14 +171,14 @@ export default {
           900: '#8C8C8C',
           950: '#000000',
         },
-        coolGrey: {
+        coolGray: {
           50: '#FFFFFF',
           100: '#F2F2F2',
           200: '#E6E6E6',
-          300: '#D9D9D9',
+          300: '#CFD6DD ',
           400: '#CCCCCC',
           500: '#555F6D',
-          600: '#B3B3B3',
+          600: '#4A545E',
           700: '#A6A6A6',
           800: '#999999',
           900: '#8C8C8C',
