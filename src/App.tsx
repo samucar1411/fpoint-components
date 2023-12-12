@@ -1,10 +1,11 @@
-import { Badge } from "./components"
+import { Badge } from './components';
+
 
 export const App = () => {
   return (
     <>
     <div>
-      <Badge label={"label"} intent={"warning"} />
+      <Badge label={'label'} intent={'warning'} />
     </div>
     </>
   )

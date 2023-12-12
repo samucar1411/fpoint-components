@@ -22,9 +22,10 @@ export const Badge: FC<BadgeProps> = ({ label, intent, leadingIcon, trailingIcon
 
   return (
     <div className={badgeClasses}>
-      {leadingIcon && <span className="mr-1">{typeof leadingIcon === 'function' ? leadingIcon({}) : leadingIcon}</span>}
-      <span className='text-sm leading-normal tracking-tight'>{label}</span>
-      {trailingIcon && <span className="ml-1">{typeof trailingIcon === 'function' ? trailingIcon({}) : trailingIcon}</span>}
+      {leadingIcon && <span className='h-4 w-4'>{typeof leadingIcon === 'function' ? leadingIcon({}) : leadingIcon}</span>}
+      <span className='text-sm leading-normal tracking-tight'>{ label }</span>
+      {trailingIcon && <span className='h-4 w-4'>{typeof trailingIcon === 'function' ? trailingIcon({}) : trailingIcon}</span>}
     </div>
   );
 };
+
